@@ -25,7 +25,7 @@ export default function MiniJeuInteractif() {
       }
     }
 
-    // Étape 2 : Present
+   
     for (let i = 0; i < 3; i++) {
       if (!propUtilise[i]) {
         for (let j = 0; j < 3; j++) {
@@ -39,7 +39,7 @@ export default function MiniJeuInteractif() {
       }
     }
 
-    // Étape 3 : Absent
+    
     for (let i = 0; i < 3; i++) {
       if (!feedback[i]) {
         feedback[i] = 'Absent';
