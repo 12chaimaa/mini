@@ -16,7 +16,7 @@ export default function MiniJeuInteractif() {
     const codeUtilise = [false, false, false];
     const propUtilise = [false, false, false];
 
-    // Étape 1 : Correct
+    
     for (let i = 0; i < 3; i++) {
       if (prop[i] === code[i]) {
         feedback[i] = 'Correct';
